@@ -1,0 +1,103 @@
+Grading r22916 by yjo10 committed on Fri Feb 24 17:22:24 CST 2017
+Monad Autograder
+Testing mp3 at 2017-02-25 02:14:10
+
+"Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves." ~ Alan Kay
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+testInsertFront  . . . . . . . . [2 pts]  - passed
+testInsertBack . . . . . . . . . [2 pts]  - passed
+testDestructor10 (asan)  . . . . [3 pts]  - passed
+testDestructor37 (asan)  . . . . [3 pts]  - passed
+testReverse20_size . . . . . . . [1 pts]  - passed
+testReverse20_forward  . . . . . [1 pts]  - passed
+testReverse20_backward . . . . . [1 pts]  - passed
+testReverse37_size . . . . . . . [1 pts]  - passed
+testReverse37_forward  . . . . . [1 pts]  - passed
+testReverse37_backward . . . . . [1 pts]  - passed
+testReverseEmpty (asan)  . . . . [1 pts]  - passed
+testReverse20_memory (asan)  . . [1 pts]  - passed
+testReverseNth20_2_size  . . . . [1 pts]  - passed
+testReverseNth20_2_forward . . . [1 pts]  - passed
+testReverseNth20_2_backward  . . [1 pts]  - FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+testReverseNth37_4_size  . . . . [1 pts]  - passed
+testReverseNth37_4_forward . . . [1 pts]  - passed
+testReverseNth37_4_backward  . . [1 pts]  - passed
+testReverseNth37_37  . . . . . . [1 pts]  - FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+testReverseNth37_4_memory (asan) [1 pts]  - passed
+testReverseNthEmpty (asan) . . . [1 pts]  - passed
+testWaterfall4_size  . . . . . . [1 pts]  - passed
+testWaterfall4_forward . . . . . [1 pts]  - passed
+testWaterfall4_backward  . . . . [2 pts]  - passed
+testWaterfall7_size  . . . . . . [1 pts]  - passed
+testWaterfall7_forward . . . . . [1 pts]  - passed
+testWaterfall7_backward  . . . . [2 pts]  - passed
+testWaterfall12_size . . . . . . [1 pts]  - passed
+testWaterfall12_forward  . . . . [1 pts]  - passed
+testWaterfall12_backward . . . . [2 pts]  - passed
+testWaterfall7_memory (asan) . . [3 pts]  - passed
+testWaterfall7_empty (asan)  . . [3 pts]  - passed
+testSplit5_this_size . . . . . . [1 pts]  - passed
+testSplit5_this_forward  . . . . [1 pts]  - passed
+testSplit5_this_backward . . . . [1 pts]  - passed
+testSplit5_split_size  . . . . . [1 pts]  - passed
+testSplit5_split_forward . . . . [1 pts]  - passed
+testSplit5_split_backward  . . . [1 pts]  - passed
+testSplit5_mem (asan)  . . . . . [3 pts]  - passed
+testMerge_size . . . . . . . . . [1 pts]  - passed
+testMerge_forward  . . . . . . . [1 pts]  - passed
+testMerge_backward . . . . . . . [1 pts]  - passed
+testMerge_mem (asan) . . . . . . [3 pts]  - passed
+testSort16p_s  . . . . . . . . . [1 pts]  - passed
+testSort16p_f  . . . . . . . . . [2 pts]  - passed
+testSort16p_b  . . . . . . . . . [2 pts]  - passed
+testSort20p_s  . . . . . . . . . [1 pts]  - passed
+testSort20p_f  . . . . . . . . . [2 pts]  - passed
+testSort20p_b  . . . . . . . . . [2 pts]  - passed
+testSort27p_s  . . . . . . . . . [1 pts]  - passed
+testSort27p_f  . . . . . . . . . [2 pts]  - passed
+testSort27p_b  . . . . . . . . . [2 pts]  - passed
+testSortEmpty  . . . . . . . . . [5 pts]  - passed
+testSort259p_s . . . . . . . . . [1 pts]  - passed
+testSort259p_f . . . . . . . . . [2 pts]  - passed
+testSort259p_b . . . . . . . . . [2 pts]  - passed
+testSortMemLeak (asan) . . . . . [5 pts]  - passed
+testSortNlogN  . . . . . . . . . [10 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 98
+
+
+
+Detailed test output...
+================================================================
+----------------------------------------------------------------
+testReverseNth20_2_backward [1 points]
+Result: FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< 1 0 3 2 5 4 7 6 9 8 11 10 13 12 15 14 17 16 19 18 >
+
+----------------------------------------------------------------
+testReverseNth37_37 [1 points]
+Result: FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 >
+
+
+----------------------------------------------------------------
+Total score...
+================================================================
+TOTAL SCORE: 98
+

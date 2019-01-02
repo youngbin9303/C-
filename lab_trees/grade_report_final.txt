@@ -1,0 +1,47 @@
+Grading r27713 by yjo10 committed on Sun Mar  5 23:24:22 CST 2017
+Monad Autograder
+Testing lab_trees at 2017-03-06 00:25:27
+
+"To iterate is human, to recurse divine." ~ L. Peter Deutsch
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+test_isOrdered  . [33 pts] - FAILED: unit_tests.cpp:32: Assertion (tree.isOrdered() == false) failed
+test_mirror . . . [33 pts] - passed
+test_printPaths . [34 pts] - passed
+test_sumDistances [25 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 92
+
+
+
+Detailed test output...
+================================================================
+----------------------------------------------------------------
+test_isOrdered [33 points]
+Result: FAILED: unit_tests.cpp:32: Assertion (tree.isOrdered() == false) failed
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+            __ 6 __              
+         __/       \__           
+       0               7         
+     /   \               \       
+   3       5               8     
+  / \     /                 \    
+ 2   4   9                   1   
+
+
+----------------------------------------------------------------
+Total score...
+================================================================
+TOTAL SCORE: 92
+

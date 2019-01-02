@@ -1,0 +1,24 @@
+Grading r6894 by yjo10 committed on Sun Jan 29 00:34:08 CST 2017
+Monad Autograder
+Testing lab_debug at 2017-01-30 00:31:56
+
+"That's legit as shit." ~ Rick Barber
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+no_segfaults . . . [20 pts] - passed
+produces_out_png . [10 pts] - passed
+similar_sketch . . [30 pts] - passed
+complete_in_01_png [20 pts] - passed
+complete_in_02_png [20 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+

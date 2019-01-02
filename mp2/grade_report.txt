@@ -1,0 +1,8 @@
+Grading r11688 by enx-cs225autograder committed on Thu Feb  9 00:45:02 CST 2017
+Monad Autograder
+Testing mp2 at 2017-02-10 00:33:49
+
+"I have never let my schooling interfere with my education." ~ Mark Twain
+
+Setting up test environment...
+Error: /dev/shm/cs225student/autograder/temp/mp2/scene.h does not exist.

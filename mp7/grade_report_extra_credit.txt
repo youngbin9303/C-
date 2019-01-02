@@ -1,0 +1,24 @@
+Grading r48563 by yjo10 committed on Fri Apr 21 21:47:27 CDT 2017
+Monad Autograder
+Testing mp7.1 at 2017-04-22 00:38:26
+
+"Optimism is an occupational hazard of programming; feedback is the treatment." ~ Kent Beck
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+addElements1 . . . . [20 pts] - passed
+addElements2 . . . . [20 pts] - passed
+testFindAndSetUnion1 [20 pts] - passed
+testFindAndSetUnion2 [20 pts] - passed
+testFindAndSetUnion3 [20 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+

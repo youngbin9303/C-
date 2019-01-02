@@ -1,0 +1,22 @@
+Grading r2110 by yjo10 committed on Fri Jan 20 16:43:26 CST 2017
+Monad Autograder
+Testing lab_intro at 2017-01-23 00:26:11
+
+"I've seen many balls. Actually, let's do an example without balls." ~ Jack Toole
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+testBrighten  . [33 pts] - passed
+testCrosshairs  [33 pts] - passed
+testBlendImages [34 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+

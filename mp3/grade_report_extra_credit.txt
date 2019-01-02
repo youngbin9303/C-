@@ -1,0 +1,53 @@
+Grading r16980 by yjo10 committed on Fri Feb 17 18:19:55 CST 2017
+Monad Autograder
+Testing mp3.1 at 2017-02-18 01:55:41
+
+"There's not enough wiggleability, you know." ~ Eric Shaffer
+
+Setting up test environment...
+Compiling...
+================================================================
+In file included from unit_tests.cpp:38:
+In file included from ./list.h:302:
+./list.cpp:230:34: error: expected ';' after expression
+                        odd->next->next = even -> next
+                                                      ^
+                                                      ;
+1 error generated.
+In file included from unit_tests.cpp:38:
+In file included from ./list.h:302:
+./list.cpp:230:34: error: expected ';' after expression
+                        odd->next->next = even -> next
+                                                      ^
+                                                      ;
+1 error generated.
+ld: no input files
+In file included from unit_tests.cpp:38:
+In file included from ./list.h:302:
+./list.cpp:230:34: error: expected ';' after expression
+                        odd->next->next = even -> next
+                                                      ^
+                                                      ;
+1 error generated.
+clang-3.5: error: no such file or directory: 'unit_tests.o'
+make: *** [proxy] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from unit_tests.cpp:38:
+In file included from ./list.h:302:
+./list.cpp:230:34: error: expected ';' after expression
+                        odd->next->next = even -> next
+                                                      ^
+                                                      ;
+1 error generated.
+ld: no input files
+
+
+Running tests...
+================================================================
+Could not execute test cases
+
+
+Total score...
+================================================================
+TOTAL SCORE: 0
+
